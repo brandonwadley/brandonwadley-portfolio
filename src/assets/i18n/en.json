@@ -1,0 +1,180 @@
+{
+
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "CV_Brandon_Wadley_En.pdf",
+
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "I have <span class='underline'>9 years of experience</span> in designing and developing robust web applications. Proficient in <span class='underline'>Javascript/Typescript</span>, <span class='underline'>Java</span>  and <span class='underline'>Python</span>, applying good practices and development standards. Expertise in integrating <span class='underline'>AWS services</span> and managing  <span class='underline'>CI/CD</span> pipelines. Strong background in <span class='underline'>cloud computing</span>, <span class='underline'>containerization</span>, and <span class='underline'>cross-platform mobile development</span>.",
+    "Banner.ActionBtn": "Get in touch",
+
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "In <span class='underline'>9 years of experience</span> I've covered many roles: <span class='underline'>Senior Full Stack Developer</span>, <span class='underline'>backend developer</span>, <span class='underline'>Full Stack Developer</span>, and <span class='underline'>technical leader</span>. I love contributing my knowledge to create new things that help solve problems.",
+        "My capabilities also include implementing improvements in systems, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
+        "I also program things for my personal use, whether as a hobby or for utility.",
+        "Some of the technologies that I have trained and worked on include (but are not limited to):"
+    ],
+
+
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+        
+        {
+            "Tab": "Simform",
+            "Title": "Senior Fullstack developer",
+            "Date": "09/2021 - Present",
+            "Description": [
+                "Developed a real-time video streaming platform using Next.js, Nest.js, and Node.js.",
+                "Enhanced SEO, build processes with Rollup, Webpack, and Babel, and used Tailwind CSS and Material UI.",
+                "Built and maintained a mobile app with React Native.",
+                "Integrated WebRTC for peer-to-peer communication and RabbitMQ for messaging.",
+                "Designed real-time data streaming with Apache Kafka and used Prisma V2 for ORM.",
+                "Configured video stream servers, AWS Transcribe, and TensorFlow.",
+                "Integrated OAuth, JWT authentication, and various AWS services (S3, EC2, App Sync, RDS, Kinesis).",
+                "Managed source control with Git/GitHub and tracked projects using Trello.",
+                "Applied SOLID principles and design patterns, providing technical leadership and guidance."
+            ]
+      },
+      {
+            "Tab": "Radix",
+            "Title": "Fullstack developer",
+            "Date": "02/2018 - 08/2021",
+            "Description": [
+              "Developed an e-commerce platform with React, Typescript, Python, and Django.",
+              "Built mobile apps with React Native and implemented SEO strategies.",
+              "Created RESTful APIs and integrated Kafka for real-time data processing.",
+              "Managed databases with PostgreSQL and PostGIS.",
+              "Deployed Python applications on AWS services and configured CI/CD pipelines with Jenkins.",
+              "Used JIRA for project management and maintained compliance with PCI DSS."
+            ]
+        },
+        {
+            "Tab": "Startup House",
+            "Title": "Full Stack Developer",
+            "Date": "07/2015 - 01/2018",
+            "Description": [
+              "Built a company website and social media platform using Angular and Java Spring Boot.",
+              "Developed macOS and iOS applications with Swift and SwiftUI.",
+              "Designed database solutions with Oracle and implemented serverless apps using AWS services.",
+              "Configured CI/CD pipelines, monitored applications with CloudWatch, and used AWS CLI for automation.",
+              "Implemented authentication with AWS Cognito and Auth2."
+            ]
+        },
+        {
+            "Tab": "SeedX",
+            "Title": "Junior FullStack developer",
+            "Date": "July 2017 - October 2018",
+            "Description": [
+              "Developed web applications with JavaScript, TypeScript, and React.js.",
+              "Created 3D web apps using Three.js and dynamic visualizations with D3.js.",
+              "Built backend systems with Node.js, Express.js, and used Ajax for data fetching.",
+              "Deployed cloud-based apps on Microsoft Azure and configured CI workflows with CircleCI.",
+              "Engaged in Agile methodologies and developed test suites with Cypress Testing Framework."
+            ]
+        }
+    ],
+
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [{
+        "Title": "Chatruume",
+        "Description": "At Simform, I led the development of Chatruume, a real-time video streaming platform. We used <span class='underline'>Next.js</span> for the frontend and <span class='underline'>Nest.js</span> for the backend. We integrated <span class='underline'>WebRTC</span> for audio and video communication and used AWS Transcribe and <span class='underline'>Gen AI</span> for live captioning.",
+        "imgs": [
+        "assets/images/chatruume/1.png",
+        "assets/images/chatruume/2.png",
+        "assets/images/chatruume/3.png",
+        "assets/images/chatruume/4.png"
+        ],
+        "Technologies": ["Next.js", "Nest.js", "SASS", "Tailwind CSS", "Material UI", "RESTful APIs", "OAuth2", "JWT", "WebRTC", "WebSocket", "RabbitMQ", "Apache Kafka", "Prisma V2", "MongoDB with TypeORM", "Docker", "Kubernetes", "AWS EC2", "AWS S3", "Trello", "GitHub"]
+        },
+        
+        {
+          "Title": "ShopThatStore",
+          "Description": "I developed and maintained ShopthatStore's large-scale e-commerce platform, leveraging <span class='underline'>React with Typescript</span> and <span class='underline'>Python/Django</span> for robust performance and scalability. I spearheaded <span class='underline'>SEO</span> efforts, integrated <span class='underline'>React Native</span> for cross-platform mobile apps, managed <span class='underline'>PostgreSQL</span> databases securely.",
+          "imgs": [
+              "assets/images/shopthatstore/1.png",
+              "assets/images/shopthatstore/2.png",
+              "assets/images/shopthatstore/3.png",
+              "assets/images/shopthatstore/4.png",
+              "assets/images/shopthatstore/5.png"
+          ],
+          "Technologies": ["Javascript", "Typescript", "React", "React Native", "React Hooks", "Redux", "Redux-saga", "","SASS", "Tailwind CSS", "Material UI", "RESTful APIs", "Django", "Jenkins", "PCI DSS", "Collibra", "JIRA", "GitHub"]
+        },
+        
+        {
+          "Title": "TuneTank",
+          "Description": "Monitoring application built from scratch with auth module, <span class='underline'>configurable graphs</span>, <span class='underline'>configurable alarms</span>, and <span class='underline'>user management</span>. It also has reactive form logic for configuring parameters.",
+          "imgs": [
+              "assets/images/tunetank/1.png",
+              "assets/images/tunetank/2.png",
+              "assets/images/tunetank/3.png"
+          ],
+          "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        },
+        {
+            "Title": "Dialogue",
+            "Description": "Health plan quote that has a search engine with which advanced queries are made. Plans are displayed based on the user's age, monthly income, and location. It has <span class='underline'>online chat</span, <span class='underline'>contact form</span>, <span class='underline'>notification system by whatsapp and mail</span>, <span class='underline'>auth</span>, and <span class='underline'>internet information management through the role of administrator.</span>",
+            "imgs": [
+                "assets/images/dialogue/1.png",
+                "assets/images/dialogue/2.png",
+                "assets/images/dialogue/3.png",
+                "assets/images/dialogue/4.png"
+            ],
+            "Technologies": ["Laravel", "Angular", "SASS", "Angular Material", "RxJS"]
+        }
+    ],
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [{
+            "Title": "Pokemon",
+            "Description": "Pokemon search engine that uses the pokeapi. Object-oriented programming was used to organize the information of the pokemons along with their respective image.",
+            "ghLink": "https://github.com/brandonwadley/pokemon-angular",
+            "demoLink": "https://projects.brandonwadley.com/pokemon-list",
+            "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
+        },
+        {
+            "Title": "Coming soon page",
+            "Description": "Personal project of a two-column split page to be used as a 'Coming soon page'. Scheduled to be a fully responsive design. It has a form field to subscribe by email.",
+            "ghLink": "https://github.com/brandonwadley/coming-soon-page",
+            "demoLink": "https://projects.brandonwadley.com/coming-soon-page",
+            "Technologies": ["Angular", "SASS", "CSS GRID", "Reactive form"]
+        },
+        {
+            "Title": "Four card feature section",
+            "Description": "A single page that has a minimal design, listing four features on four cards. Input animations are done with angular animations.",
+            "ghLink": "https://github.com/brandonwadley/fourd-card-feature-section",
+            "demoLink": "https://projects.brandonwadley.com/four-card-feature-section",
+            "Technologies": ["Angular", "SASS", "CSS GRID"]
+        },
+        {
+            "Title": "Social proof section",
+            "Description": "Personal project of a page designed from a Figma layout. Angular was used for development together with SASS and CSS GRID.",
+            "ghLink": "https://github.com/brandonwadley/social-proof-section",
+            "demoLink": "https://projects.brandonwadley.com/social-proof-section",
+            "Technologies": ["Angular", "CSS GRID", "GIT"]
+        },
+        {
+            "Title": "FAQ accordion card",
+            "Description": "FAQ accordion with logic and animations made in Angular.",
+            "ghLink": "https://github.com/brandonwadley/faq-accordion",
+            "demoLink": "https://proyectos.brandonwadley.com/faq-accordion",
+            "Technologies": ["Angular", "CSS GRID", "Angular animations"]
+        },
+        {
+            "Title": "Profile card",
+            "Description": "Simple one-page design that features a profile letter with basic information about a person.",
+            "ghLink": "https://github.com/brandonwadley/profile-card-component",
+            "demoLink": "https://proyectos.brandonwadley.com/profile-card-component",
+            "Technologies": ["Angular", "SASS", "GIT"]
+        }
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Get in touch!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+
+
+}

@@ -1,0 +1,69 @@
+<section class="section about" id='about'>
+    <div class="container">
+        <div class="section-box">
+            <div class="about-title" data-aos="fade-up">
+                <h3 class="section-title">
+                    <span class='n-section-title'>01.</span> {{"AboutMe.Title" | translate}}
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <div class="about-description">
+                        <p *ngFor='let text of "AboutMe.Paragraphs" | translate' [innerHTML]="text" data-aos="fade-up"
+                            data-aos-duration="1000">
+                        </p>
+                        <ul class="skills-list" data-aos="fade-up">
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Programming Languages: Python, Java, JavaScript, TypeScript,
+                                    Swift</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Frontend Technologies: HTML, CSS (SCSS), Styled Components, Bootstrap,
+                                    Tailwind, MaterialUI, JQuery, React.js, Angular.js, Vue.js, Next.js, React Native, Redux,
+                                    Mobx, Context API, Webpack, Responsive Design, Storybook, SwiftUI, Three.js, D3.js</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Backend Technologies: Node.js, Express.js, Nest.js, J2EE, Spring
+                                    Boot, Hibernate, JPA, Django, Flask, FastAPI, Prisma V2, GraphQL, RESTful APIs,
+                                    Microservices, WebSocket</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Databases: Microsoft SQL Server, MongoDB, MySQL, PostgreSQL,
+                                    Oracle, Redis</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Continuous Integration/Continuous Deployment: Jenkins,
+                                    CircleCI</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Configuration Manager: Ansible, Puppet</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Infrastructure as a Code: Terraform, AWS CloudFormation</span>
+                            </li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Cloud Platforms: AWS S3, EC2, RDS, DynamoDB, ECS, Step Functions,
+                                    SNS, SQS, VPC, CLI, App Sync, IAM, AWS Glue, AWS Lambda, CloudWatch, CDK, AWS
+                                    CodePipeline, Kinesis, Redshift, Azure Cloud</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Testing & Debugging: Chai, Enzyme, Jasmine, Jest, Karma, Mocha,
+                                    Cypress, Selenium, JUnit, Pytest</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Bug Tracking Tools: Bugzilla, Jira, Trello</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Tools & Platforms: RabbitMQ, WebRTC, LiveKit, Gradle, Maven,
+                                    Docker, Kubernetes, Kafka, Confluence, Tableau, NGINX, PostGIS, GIS</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Methodologies & Practices: Agile, Waterfall, SDLC, Lean,
+                                    TDD</span></li>
+                            <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span
+                                    class="underline">Version Control: Git, GitHub, GitLab</span></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-4 mt-md-0 text-center" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="about-img-container">
+                        <img (click)='analyticsService.sendAnalyticEvent("click_image", "about", "image")'
+                            class="rounded" width="400" height="300" src="assets/images/me4.jpg" alt="Brandon Wadley">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
